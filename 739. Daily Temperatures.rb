@@ -44,7 +44,7 @@ def daily_temperatures(t)
             cur = stack.pop()
             ans[cur] = i - cur
         end
-        stack.append(i)
+        stack.push(i)
     }
     return ans
 end
